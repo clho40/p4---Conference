@@ -32,13 +32,13 @@ App Engine application for the Udacity training course.
 1. The ID of selected Speaker will be saved into the Session entity.
 1. The reason of registering a Speaker and having an entity of Speaker is to store the related information of the speaker (eg: qualification, organization, and etc) so that our application can make good use of these information to attract more people to take part in the conferences & sessions.
 
-#Datatype Choices
+###Datatype Choices
 1. StringProperty - For fields that contains combination of alphanumeric and symbols
 1. IntegerProperty - For fields that ONLY contains positive whole number
 1. DateProperty - For fields that contains date information (eg: 1/12/2015)
 1. TimeProperty - For fields that contains time information (eg: 19:00)
 
-#Properties in Speaker's Entity
+###Properties in Speaker's Entity
 1. name - String Field - A name consist a combination of alphabets and symbols (eg: Single quote - Conan O' Brian), therefore it is a string property.
 1. email - String Field - An email consist of a combination of alphanumeric and symbols (eg: abc@def.com), therefore it is a string property.
 1. qualification - Repeated String Field - A qualification consist of a combination of alphanumeric and symbols (eg: BEng in Electronic Engineering Year 2000) and a speaker can have multiple qualification, therefore it is a repeated string field.
