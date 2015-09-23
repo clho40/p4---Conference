@@ -44,9 +44,6 @@ App Engine application for the Udacity training course.
 1. qualification - Repeated String Field - A qualification consist of a combination of alphanumeric and symbols (eg: BEng in Electronic Engineering Year 2000) and a speaker can have multiple qualification, therefore it is a repeated string field.
 1. working experience - Repeated String Field - Working Experience consist of a combination of alphanumeric and symbols (eg: Intel, 2000-Present) and a speaker can have multiple qualification, therefore it is a repeated string field.
 
-
-
-
 ## Task 2 - Additional Queries
 1. getAllSpeakers - In order to bind all the speakers to a drop down list in front end page when creating session, it is necessary to retrieve all the speakers
 1. getPotentialSessionAttendee - This query is to get the users that added the particular session into their wishlist, so that the organizer can contact them and get them to join the session!
